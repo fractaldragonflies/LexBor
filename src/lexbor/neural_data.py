@@ -14,8 +14,8 @@ from keras.utils import pad_sequences
 from keras.utils import to_categorical
 
 # Build namespace
-import pybor2.util as util
-import pybor2.config as cfg
+import lexbor.util as util
+import lexbor.config as cfg
 
 output_path = Path(cfg.BaseSettings().output_path).resolve()
 

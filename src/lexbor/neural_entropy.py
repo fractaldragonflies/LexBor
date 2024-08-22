@@ -50,10 +50,10 @@ from tensorflow import clip_by_value
 # from keras import backend as K
 
 # Build our namespace
-import pybor2.util as util
-import pybor2.config as cfg
+import lexbor.util as util
+import lexbor.config as cfg
 
-import pybor2.multihead_attention as mha
+import lexbor.multihead_attention as mha
 
 # @title src/pybor/entropies_with_attention_modified.py
 # %%writefile src/pybor/entropies_with_attention_modified.py
@@ -737,7 +737,7 @@ class NeuralEntropyMultiheadAttention(NeuralEntropy):
         if params.attention_dropout > 0:
             to_outputs = Dropout(params.attention_dropout,
                                  name="Attention_dropout")(to_outputs)
-        
+
         # To test in tf nightly build.
         # to_outputs = tf.keras.layers.MultiHeadAttention(params.num_heads, params.embedding_len,
         #                        dropout=params.attention_dropout, name="Self_attention",

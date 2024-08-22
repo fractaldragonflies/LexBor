@@ -11,7 +11,7 @@ import random
 import sys
 
 # Build namespace
-import pybor2.config as cfg
+import lexbor.config as cfg
 
 output_path = Path(cfg.BaseSettings().output_path).resolve()
 

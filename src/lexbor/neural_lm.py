@@ -55,9 +55,9 @@ from keras.models import Model
 
 # Build our namespace
 # import pybor.neural_data as neu_dat
-from pybor2 import util
-import pybor2.config as cfg
-import pybor2.neural_entropy as entropy
+from lexbor import util
+import lexbor.config as cfg
+import lexbor.neural_entropy as entropy
 
 """
 Neural net entropy estimation module to configure and fit a neural network model.

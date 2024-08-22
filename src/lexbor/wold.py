@@ -7,8 +7,8 @@ import random
 from collections import Counter
 from collections import OrderedDict
 
-from pybor2 import data
-from pybor2 import util
+from lexbor import data
+from lexbor import util
 
 
 logger = util.get_logger(__name__)
