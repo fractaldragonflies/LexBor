@@ -1,0 +1,21 @@
+cldfbench
+lingpy
+matplotlib
+# nltk
+numpy>=1.26.4
+# pandas
+pyclts
+scipy
+tensorflow>=2.16.1
+keras
+tabulate
+attrs
+scikit-learn
+csvw
+tqdm
+setuptools
+pylexibank
+clldutils
+pytest
+xheap
+unidecode
